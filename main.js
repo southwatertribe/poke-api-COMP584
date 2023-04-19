@@ -34,7 +34,7 @@ async function animateEntry(cardnum, ball) {
   //Establish keyframe path
   const ballPath = keyframes({
     values: [
-      { x: xo, y: yo },
+      { x: xo, y: yo, height: '500px'},
       { x: xo + -vx*(vo/g), y: yo + -400 },
       { x: xo + -vx*(1.5*vo/g), y: yo+10 },
     ],
